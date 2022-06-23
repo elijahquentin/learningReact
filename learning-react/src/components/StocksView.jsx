@@ -9,7 +9,10 @@ function StocksView() {
 
   return stocksList.map((stock) => (
     // Below 'key' is necessary for each list item to be unique in the 'props' area of the StockRow file
-    <StockRow ticker={stock.ticker} price={stock.price} key={stock.ticker} />
+
+    <div className="container" key={stock.ticker}>
+      <StockRow ticker={stock.ticker} price={stock.price} />
+    </div>
   ));
 }
 
