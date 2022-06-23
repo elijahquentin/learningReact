@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 
 function NavigationView() {
   return (
