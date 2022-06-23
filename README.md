@@ -1,3 +1,4 @@
 # learningReact
-Install node.js
-`npm start` in terminal
+Install node.js, then
+`npm start` 
+in terminal
