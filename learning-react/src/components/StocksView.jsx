@@ -6,6 +6,8 @@ function StocksView() {
   const [stocksList, updateStocksList] = useState([
     { ticker: 'ETH', price: 1100, percent: 4.43 },
     { ticker: 'AAPL', price: 157, percent: -2.15 },
+    { ticker: 'DOGE', price: 0.003, percent: 114.2 },
+    { ticker: 'AMZN', price: 106, percent: -12.15 },
     { ticker: 'BTC', price: 20500, percent: -11.12 },
   ]);
 

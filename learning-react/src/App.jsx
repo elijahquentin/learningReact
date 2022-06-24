@@ -1,4 +1,4 @@
-import NavigationView from './components/NavigationView';
+import NavigationBar from './components/NavigationBar';
 import StocksView from './components/StocksView';
 import React, { useState } from 'react';
 
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-      <NavigationView
+      <NavigationBar
         currentView={currentView}
         updateCurrentView={updateCurrentView}
         pages={pages}
