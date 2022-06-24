@@ -3,7 +3,7 @@ import React from 'react';
 function NavigationView() {
   return (
     <div className="sample-navbar">
-      <h2>Sample Navbar</h2>
+      <h2>Navbar Placeholder</h2>
     </div>
   );
 }
