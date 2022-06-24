@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 function StockRow(props) {
   return (
+    //conditional class application
     <div className={props.percentChange >= 0 ? 'row row-green' : 'row row-red'}>
       <div className="col-md-3">
         <h1>{props.ticker}</h1>

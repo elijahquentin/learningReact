@@ -5,6 +5,7 @@ function NavigationView(props) {
     <div className="navbar">
       {props.pages.map((page) => (
         <button
+          disabled={page.viewString == props.currentView}
           key={page.viewString}
           className={
             page.viewString == props.currentView
