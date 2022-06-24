@@ -1,7 +1,11 @@
 .sample-navbar {
   background-color: #293462;
-  width: 100vw;
+  width: 90vw;
   margin-bottom: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .sample-navbar h2 {
@@ -18,8 +22,8 @@
 .row {
   margin: 1vw;
   padding: 2vw;
-  border-radius: 50px;
-  outline: 3px solid black;
+  border-radius: 20px;
+  outline: 1px solid black;
 }
 
 .row-red {
