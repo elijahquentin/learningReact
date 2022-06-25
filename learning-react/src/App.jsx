@@ -3,7 +3,7 @@ import StocksView from './components/StocksView';
 import React, { useState } from 'react';
 
 function OtherView() {
-  return <h1 className="other">Page is not yet developed</h1>;
+  return <h1 className="other">Page is not yet deployed</h1>;
 }
 
 function App() {

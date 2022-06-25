@@ -5,12 +5,11 @@
 
 .navbar {
   background-color: var(--navbar);
-  width: 90vw;
+  width: 40vw;
   margin-bottom: 1vw;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 
 .nav-button.active {
