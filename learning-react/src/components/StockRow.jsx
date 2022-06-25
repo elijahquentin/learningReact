@@ -1,8 +1,4 @@
 import React, { useState } from 'react';
-import { getStockDailyInfo } from '../alpaca.js';
-
-var request = getStockDailyInfo(123);
-console.log(request);
 
 function StockRow(props) {
   return (
