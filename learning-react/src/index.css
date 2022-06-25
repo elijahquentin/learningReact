@@ -1,5 +1,10 @@
+:root {
+  --navbar: #4D96FF;
+}
+
+
 .navbar {
-  background-color: #293462;
+  background-color: var(--navbar);
   width: 90vw;
   margin-bottom: 1vw;
   margin-left: auto;
@@ -9,8 +14,10 @@
 }
 
 .nav-button.active {
-  color: #293462;
+  color: var(--navbar);
 }
+
+
 
 .nav-button {
   background-color: transparent;
@@ -43,9 +50,9 @@
 }
 
 .row-red {
-  background-color: #FF1700;
+  background-color: #FF6B6B;
 }
 
 .row-green {
-  background-color: #06FF00;
+  background-color: #6BCB77;
 }
